@@ -1,12 +1,16 @@
 body {
+  font-family: Helvetica;
+}
+h1 {
+  font-weight: 100;
+}
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-family: Helvetica;
-}
-.d-block {
-  display: block;
+  height: 100vh;
+  flex-direction: column;
 }
 img {
   width: 80px;
